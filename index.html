@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task Manager</title>
-    
+    <title>Task Manager</title> 
     <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
     <div class="container">
           <h1>Task Manager</h1>
-        <div class="input-section"><input type="text" placeholder="Enter Task"><button>ADD</button></div>
-        <ul class="task-list">
-            <li>Learn HTML<button>✅</button><button>❎</button></li>
-            <li>Learn CSS<button>✅</button><button>❎</button></li>
-            <li>Learn JavaScript<button>✅</button><button>❎</button></li>
-            <li>Build Project<button>✅</button><button>❎</button></li>
+        <div class="input-section"><input type="text" id="taskInput"
+            placeholder="Enter Task"><button id="addBtn">ADD</button></div>
+        <ul class="task-list" id="tasklist">
+           <!-- add by javaScript -->
         </ul>
     </div>
+     <script src="script.js"></script>
 </body>
 </html>
